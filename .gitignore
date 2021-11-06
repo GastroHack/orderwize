@@ -1,5 +1,6 @@
 .env
 src/server/__pycache__
+src/server/build
 
 # misc
 .DS_Store
