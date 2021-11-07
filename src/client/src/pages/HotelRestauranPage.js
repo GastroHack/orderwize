@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import { useState } from "react";
 import useWindowDimensions from "../utils/useWindowDimensions";
@@ -103,7 +105,7 @@ export default function HotelRestaurantPage() {
               </div>
               <div
                 style={{
-                  backgroundColor: "tomato",
+                  backgroundColor: "white",
                   width: "10%",
                   height: "50%",
                 }}
@@ -125,7 +127,7 @@ export default function HotelRestaurantPage() {
                 style={{
                   width: "100%",
                   height: "30%",
-                  backgroundColor: "tomato",
+                  backgroundColor: "white",
                   display: "flex",
                   flexDirection: "row",
                   justifyContent: "center",
@@ -184,7 +186,7 @@ export default function HotelRestaurantPage() {
                   flexDirection: "row",
                   justifyContent: "center",
                   alignItems: "center",
-                  backgroundColor: "tomato",
+                  backgroundColor: "white",
                 }}
               >
                 <div
