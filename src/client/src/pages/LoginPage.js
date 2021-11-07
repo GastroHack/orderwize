@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import useWindowDimensions from "../utils/useWindowDimensions";
 import OrderLogo from "../assets/orderWizeWideLogo.png";
@@ -84,7 +86,7 @@ export default function LoginPage() {
                 marginTop: "10%",
                 cursor: "pointer",
               }}
-              onClick={() => navigate("hotel-restaurant", { replace: true })}
+              onClick={() => navigate("/hotel-restaurant", { replace: true })}
             >
               <h3> Open buffet prediction </h3>
             </div>
@@ -97,8 +99,9 @@ export default function LoginPage() {
                 textAlign: "center",
                 justifyContent: "center",
               }}
+              onClick={() => navigate("/charts", { replace: true })}
             >
-              <h3> Hotel Restaurant prediction </h3>
+              <h3> Charts </h3>
             </div>
           </div>
         </div>
